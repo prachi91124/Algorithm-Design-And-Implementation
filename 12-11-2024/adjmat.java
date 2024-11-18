@@ -28,9 +28,9 @@ public class adjmat {
         //edge list
         
         List < List <Integer> > edgeList = new ArrayList<>();
-        edgeList.add(new int[] {0,1});
-        edgeList.add(new int[] {0,2});
-        edgeList.add(new int[] {1,3});
-        edgeList.add(new int[] {2,3});
+        edgeList.add(List.of (0,1));
+        edgeList.add(List.of (0,2));
+        edgeList.add( List.of(1,3));
+        edgeList.add( List.of(2,3));
     }    
 }
