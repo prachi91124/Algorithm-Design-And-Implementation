@@ -62,7 +62,7 @@ class BinaryTree{
             Node temp = q.poll();
             System.out.println(temp.data);
 
-            if(temp.left  != null){
+            if(temp.left  != nu9ll){
                 q.add(temp.left);
             }
             if(temp.right  != null){
