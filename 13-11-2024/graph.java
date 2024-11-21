@@ -23,7 +23,7 @@ public class DFS {
         }
 
         void BFS(int startVertex) {
-            boolean[] isVisited = new boolean[V + 1];
+            boolean[] isVisited = new boolean[V l];
             Queue<Integer> q = new LinkedList<>();
 
             isVisited[startVertex] = true;
