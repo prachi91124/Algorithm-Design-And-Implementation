@@ -15,6 +15,7 @@ public class adjmat {
 
         //adjacency list
         List<List<Integer>> adjList = new ArrayList <>();
+        //Initializing each elt of adjList with a valid list object mtlb hr ek index pr bta rhe h ki vo ek list store krega just like arrayList
         for(int i = 0; i < v; i++){
             adjList.add(new ArrayList <> ());
         }
