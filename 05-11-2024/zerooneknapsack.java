@@ -32,7 +32,20 @@ public class zerooneknapsack {
         }
         return  DP[n][w];
     }
-
+    static int knapsacktab(int [] wt, int [] val, int w, int n){
+        for(int i = 0; i <= n; i++){
+            for(int j = 0; j <= w; j++){
+                if(i == 0 || j == 0){
+                    tab[i][j] = 0;
+                }
+                if(wt[i-1] < j){
+                    tab[i][j] = Math.max(val[i-1] + tab[i-1][j-wt[i-1]], tab[i-1][j]);
+                }
+                tab[i][j] = tab[i-1][j];
+            }
+        }
+        return tab[n][w];
+    }
 
 }
 //Tabulation
