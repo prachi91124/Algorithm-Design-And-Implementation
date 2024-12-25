@@ -1,6 +1,5 @@
 import java.util.*;
-// Other imports go here
-// Do NOT change the class name
+
 public class topviewofbt
 {
     public static void main(String[] args)
